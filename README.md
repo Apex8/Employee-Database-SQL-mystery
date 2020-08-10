@@ -12,7 +12,11 @@ Note: You may hear the term "Data Modeling" in place of "Data Engineering," but 
 2. Clone the new repository to your computer.  
 3. Inside your local git repository, create a directory for the SQL challenge. Use a folder name to correspond to the challenge: **EmployeeSQL**.  
 4. Add your files to this folder.  
-5. Push the above changes to GitHub.  ## Instructions  #### Data Modeling  Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool like [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com).  
+5. Push the above changes to GitHub.  
+
+## Instructions  
+
+#### Data Modeling  Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool like [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com).  
 #### Data Engineering  
 * Use the information you have to create a table schema for each of the six CSV files. Remember to specify data types, primary keys, foreign keys, and other constraints.    
 * For the primary keys check to see if the column is unique, otherwise create a [composite key](https://en.wikipedia.org/wiki/Compound_key). Which takes to primary keys in order to uniquely identify a row.   
