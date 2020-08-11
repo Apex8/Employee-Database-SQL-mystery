@@ -1,4 +1,3 @@
-
 DROP TABLE IF EXISTS departments;
 
 CREATE TABLE departments (
