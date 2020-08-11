@@ -57,8 +57,8 @@ CREATE TABLE salaries (
 DROP TABLE IF EXISTS titles;
 
 CREATE TABLE titles (
-	title_id VARCHAR,
-	title VARCHAR,
+	title_id 		VARCHAR		NOT NULL,
+	title 			VARCHAR		NOT NULL,
 	PRIMARY KEY (title_id),
 	FOREIGN KEY (title_id) REFERENCES employees (emp_title)
 
