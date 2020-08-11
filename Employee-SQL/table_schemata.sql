@@ -18,6 +18,7 @@ CREATE TABLE employees (
 	last_name 		VARCHAR 	NOT NULL,
 	gender 			VARCHAR 	NOT NULL,
 	hire_date 		DATE 		NOT NULL,
+	UNIQUE (emp_title),
 	PRIMARY KEY (emp_no)
 );
 
@@ -61,6 +62,4 @@ CREATE TABLE titles (
 	title 			VARCHAR		NOT NULL,
 	PRIMARY KEY (title_id),
 	FOREIGN KEY (title_id) REFERENCES employees (emp_title)
-
 );
-
