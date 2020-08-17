@@ -1,9 +1,18 @@
--- 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
-SELECT
-	employee.emp_no
-	employee.last_name
-	employee.first_name
+Queries:
 
+SELECT * FROM departments;
+SELECT * FROM dept_emp;
+SELECT * FROM dept_manager;
+SELECT * FROM employees;
+SELECT * FROM salaries;
+SELECT * FROM titles;
+
+-- 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
+SELECT employees.emp_no, employees.last_name, employees.first_name, employees.gender, salaries.salary
+FROM employees
+JOIN salaries
+ON employees.emp_no = salaries.emp_no;
+	
 -- 2. List first name, last name, and hire date for employees who were hired in 1986.
 
 -- 3. List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
